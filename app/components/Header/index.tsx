@@ -39,6 +39,12 @@ const Header = () => {
           >
             About
           </Link>
+          <Link
+            href="/contact"
+            className="text-gray-600 hover:text-gray-900 px-3"
+          >
+            Contact
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}

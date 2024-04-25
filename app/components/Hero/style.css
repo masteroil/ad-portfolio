@@ -15,10 +15,18 @@
         display: flex;
         flex-direction: column;
     }
+
+    .text-smd {
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
     .xxm {
         padding: 1.5em;
+    }
+
+    .text-smd-p {
+        font-size: 18px;
     }
 }
