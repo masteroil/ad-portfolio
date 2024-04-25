@@ -10,7 +10,7 @@ const HeroContainer = () => {
         </h1>
         <p className="mt-8 text-xl text-smd-p">
           AD Tech - Your destination for bespoke Wordpress and React
-          development. I'm Aizem Dairo, here to elevate your web presence with
+          development. Im Aizem Dairo, here to elevate your web presence with
           tailored, modern solutions that captivate and engage.
         </p>
         <button className="bg-indigo-500 p-3 rounded-3xl cursor-pointer mt-10">
