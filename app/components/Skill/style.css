@@ -1,0 +1,26 @@
+@media only screen and (max-width: 640px) {
+    .xsm {
+        flex-direction: column;
+        row-gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .font-xsm h3 {
+        font-size: 15px;
+    }
+
+    .xsmsp {
+        padding: 1rem !important;
+        margin: 10px;
+    }
+
+    .font-xsm li {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .xsm {
+        align-items: center;
+    }
+}

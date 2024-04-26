@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import "./style.css";
+import Link from "next/link";
 const HeroContainer = () => {
   return (
     <section className="w-full flex justify-around max-width xxm">
@@ -14,7 +15,7 @@ const HeroContainer = () => {
           tailored, modern solutions that captivate and engage.
         </p>
         <button className="bg-indigo-500 p-3 rounded-3xl cursor-pointer mt-10">
-          Contact Me
+          <Link href="/contact">Contact Me</Link>
         </button>
       </div>
       <div className="flex relative sm:justify-center mb-44">
