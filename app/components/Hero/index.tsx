@@ -2,6 +2,9 @@ import Image from "next/image";
 import React from "react";
 import "./style.css";
 import Link from "next/link";
+import { FaFacebook } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { AiFillInstagram } from "react-icons/ai";
 const HeroContainer = () => {
   return (
     <section className="w-full flex justify-around max-width xxm">
@@ -14,9 +17,26 @@ const HeroContainer = () => {
           development. Im Aizem Dairo, here to elevate your web presence with
           tailored, modern solutions that captivate and engage.
         </p>
-        <button className="bg-indigo-500 p-3 rounded-3xl cursor-pointer mt-10">
-          <Link href="/contact">Contact Me</Link>
-        </button>
+        <div className="flex items-center gap-4 mt-9">
+          <Link href="https://www.facebook.com/Aizem.Dairo">
+            <FaFacebook
+              size={30}
+              className=" text-black hover:text-purple-300 transition-colors"
+            />
+          </Link>
+          <Link href="https://twitter.com/AizemD">
+            <BsTwitterX
+              size={30}
+              className="text-black hover:text-purple-300 transition-colors"
+            />
+          </Link>
+          <Link href="https://www.instagram.com/aizem005/">
+            <AiFillInstagram
+              size={30}
+              className="text-black hover:text-purple-300 transition-colors"
+            />
+          </Link>
+        </div>
       </div>
       <div className="flex relative sm:justify-center mb-44">
         <div>

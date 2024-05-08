@@ -33,7 +33,7 @@ const Header = () => {
           >
             Projects
           </Link>
-          <Link
+          {/* <Link
             href="/about"
             className="text-gray-600 hover:text-gray-900 px-3"
           >
@@ -44,7 +44,7 @@ const Header = () => {
             className="text-gray-600 hover:text-gray-900 px-3"
           >
             Contact
-          </Link>
+          </Link> */}
         </nav>
 
         {/* Mobile Menu Button */}

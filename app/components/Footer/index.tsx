@@ -56,19 +56,19 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex items-center gap-4">
-          <Link href="https://www.facebook.com/">
+          <Link href="https://www.facebook.com/Aizem.Dairo">
             <FaFacebook
               size={30}
               className="text-white hover:text-purple-300 transition-colors"
             />
           </Link>
-          <Link href="https://twitter.com/">
+          <Link href="https://twitter.com/AizemD">
             <BsTwitterX
               size={30}
               className="text-white hover:text-purple-300 transition-colors"
             />
           </Link>
-          <Link href="https://www.instagram.com/">
+          <Link href="https://www.instagram.com/aizem005/">
             <AiFillInstagram
               size={30}
               className="text-white hover:text-purple-300 transition-colors"
