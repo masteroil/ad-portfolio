@@ -20,6 +20,7 @@ import { BsPlugin } from "react-icons/bs";
 import { TbBrandNextjs } from "react-icons/tb";
 import { CgTemplate } from "react-icons/cg";
 import "./style.css";
+import TypingAnimation from "../magicui/typing-animation";
 
 const StarRating = ({ level }) => {
   const levels = {
@@ -126,7 +127,10 @@ const Skills = () => {
     <section className="flex justify-center text-center w-full">
       <div className="w-full">
         <div className="w-full border-b-2 border-t-2 border-r-0 border-l-0 py-10 mb-10">
-          <h2 className="text-5xl font-semibold">Skills & Expertise</h2>
+          <TypingAnimation
+            className="text-5xl font-semibold"
+            text="Skills & Expertise"
+          />
           <p className="text-3xl m-5">
             Specializing in WordPress and React Development
           </p>

@@ -5,10 +5,11 @@ import Link from "next/link";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
+
 const HeroContainer = () => {
   return (
     <section className="w-full flex justify-around max-width xxm">
-      <div className="mt-4  max-w-2xl">
+      <div className="mt-4 max-w-2xl">
         <h1 className="text-5xl font-bold p-5 text-smd">
           Elevating Web Presence with Expert Wordpress & React Development
         </h1>
@@ -21,7 +22,7 @@ const HeroContainer = () => {
           <Link href="https://www.facebook.com/Aizem.Dairo">
             <FaFacebook
               size={30}
-              className=" text-black hover:text-purple-300 transition-colors"
+              className="text-black hover:text-purple-300 transition-colors"
             />
           </Link>
           <Link href="https://twitter.com/AizemD">
