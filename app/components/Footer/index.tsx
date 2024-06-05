@@ -34,7 +34,7 @@ const Footer = () => {
             >
               Projects
             </Link>
-            <Link
+            {/* <Link
               href="/about"
               className="text-gray-600 hover:text-gray-900 px-3"
             >
@@ -45,7 +45,7 @@ const Footer = () => {
               className="text-gray-600 hover:text-gray-900 px-3"
             >
               Contact
-            </Link>
+            </Link> */}
           </nav>
         </div>
       </div>
